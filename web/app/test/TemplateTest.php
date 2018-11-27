@@ -1,15 +1,15 @@
 <?php
 
-namespace AppTest\Acme;
+namespace AppTest\TemplateManager;
 
-use App\Acme\Foo;
+use App\TemplateManager\Template;
 use PHPUnit\Framework\TestCase;
 
-class FooTest extends TestCase
+class TemplateManagerTest extends TestCase
 {
     public function testGetName()
     {
-        $foo = new Foo();
+        $foo = new Template();
         $this->assertEquals($foo->getName(), 'Nginx PHP MySQL');
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Acme;
+namespace App\TemplateManager;
 
-class Foo
+class Template
 {
     public function getName()
     {
